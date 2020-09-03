@@ -1,0 +1,44 @@
+body {
+  background-color: #e0ece4;
+}
+hr {
+  border-color: #056674;
+  border-style: none;
+  border-top: dotted;
+  height: 4px;
+  width: 95%;
+}
+h1 {
+  color: #ff4b5c;
+}
+h2 {
+color: #ff4b5c;
+}
+h3 {
+color: #ff4b5c;
+}
+p {
+  color: #056674;
+}
+li {
+    color: #056674;
+}
+td {
+  color: #056674;
+}
+th {
+  color: #ff4b5c;
+}
+a {
+  color: #ff4b5c;
+}
+label {
+  color: #ff4b5c;
+}
+input {
+  color: #ff4b5c;
+  background-color: #e0ece4;
+}
+textarea {
+  background-color: #e0ece4;
+}
