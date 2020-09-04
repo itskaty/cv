@@ -1,89 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="This is the personal site of Katy, a 20 year old returning web developer who has been taking a break for a couple years and has recently returned."</meta>
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Katy's Personal Site</title>
-  </head>
-    <body> <!--bgcolor=#36393F text=white link=#009FCB vlink=#009FCB alink=#009FCB>-->
-      <table cellspacing="20">
-        <tr>
-      <td>
-        <!--<img src="./images/katy.gif"/>-->
-      </td>
-        <td>
-          <h1>ItsKaty</h1>
-          <p><em>Founder and CEO of <strong><a href="https://fireandicehosting.com">Fire & Ice Hosting</a></strong></em></p>
-            <p>I'm the founder of a hosting company named Fire & Ice Hosting. I have been dabbling in web development for a couple years making sites for various purposes though I would mainly use a template or something of the sort for the design as I never really had faith in my design capibilities, but now I feel I'm ready to give it another try so a personal site to mark what I'm doing like a good idea to make. As I do more projects this page will be updated and hopefully in the future start looking nicer and less of an eye sore.</p>
-          </td>
-        </tr>
-      </table>
-      <hr>
-      <h3>Education</h3>
-      <p>I didn't finish high school, but I have been doing various things out of school to further my education fo the future.</p>
-      <ul>
-        <li>Middle School
-          <ul>
-            <li>Madison Middle School, Grade 6 and 8</li>
-          </ul>
-        </li>
-        <li>High School
-          <ul>
-            <li>Scott High School, Grade 9-10</li>
-          </ul>
-        </li>
-      </ul>
-      <hr>
-      <h3>Work Experience</h3>
-      <table cellspacing="5">
-        <thead>
-          <th>Years</th>
-          <th>Work Place</th>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2017-2018</td>
-            <td>Trutone Hosting LLC,</td>
-          </tr>
-          <tr>
-            <td>2018-2019</td>
-            <td>Four Season Landscaping</td>
-          </tr>
-          <tr>
-            <td>2019-Present</td>
-            <td>Hostbend LLC,</td>
-          </tr>
-        </tbody>
-      </table>
-      <hr>
-      <h3>Skills</h3>
-      <table cellspacing="5">
-        <tr>
-          <td>Gaming</td>
-          <td>⭐⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>3D Modeling</td>
-          <td>⭐⭐⭐</td>
-        </tr>
-        <tr>
-          <td>Web Development</td>
-          <td>⭐⭐</td>
-        </tr>
-      </table>
-      <!--<img src="./images/index.png">-->
-      <hr>
-      <a href="./hobbies.html">My Hobbies</a>
-      <a href="./contact.html">Contact Me</a>
-      <hr>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <title>ItsKaty</title>
+</head>
+<body>
+  <div class="top-container">
+    <img class="top-cloud"
+    src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Katy</h1>
+    <h2>a <span class="pro">pro</span>grammer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="could-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/katy.png" alt="katy-img">
+      <h2>Hello</h2>
+      <p class="intro">I am a Web Developer. I'm the founder and CEO of Fire & Ice Hosting. I like to play 3D model and play video games with friends</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <img class="code-img" src="images/code.png" alt="code-img">
 
-    </body>
-    <footer>
-      <p>
-        &copy; ItsKaty 2020
-      </p>
-    </footer>
+        <h3>Design & Development</h3>
+        <p>I started leanring to code when I was about 15 years old because it was something that interested me, mainly how this page of code can be put out on the internet for millions of people to see and interact with. I have a little bit of prior experience but haven't really used my knowledge for a few years and have gotten rusty, but now I'm taking a step back in and giving it another go.</p>
+      </div>
+    </div>
+    <div class="skill-row">
+      <img class="blender-img" src="data:image/png;base64,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" alt="blender-img">
+      <h3>3D Modeling</h3>
+      <p>But currently my best skill is 3D modeling using a software called Blender, I originally started to make assets for a game, then it turned into more of a way to create little gifts for friends (in image form). I started to really take a liking to it and making little things, and building interior designs when I didn't have much to do. </p>
+    </div>
+  </div>
+  <hr>
+  <div class="contact-me">
+    <h2>Get In Touch</h2>
+    <h3>If you like what I do or would like more info, please contact me using the following</h3>
+    <p class="contact-message">Do you want to ask about a custom site or a 3D model? Let's talk then!</p>
+    <a class="btn" href="<a href="mailto:its_kitty@icloud.com">Contact Me</a>
+  </div>
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+    <a class="footer-link" href="https://fireandicehosting.com">My Company</a>
+    <p class="copyright">© 2020 ItsKaty.</p>
+  </div>
+</body>
 </html>
